@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+    box-sizing: border-box;
+  
+}
+/* maincontainer */
+.maincontainer{
+    
+    background-color: rgb(228, 228, 221);
+    border-top: 2px solid;
+    margin: 30px;
+  
+    
+
+}
+.innercontainer{
+   
+   
+    border: 2px solid;
+    margin: 100px;
+}
+
+.flex{
+    display: flex;
+    gap: 30px;
+   
+}
+.topmain{
+    margin-bottom: 40px;
+    
+}
+/* spotify image first */
+.spotify{
+    width: 1400px;
+    height: 500px;
+     
+
+}
+img{
+    width: 100%;
+    height: 100%
+}
+/* spotify paragraph */
+.paragraph p{
+    color: rgb(137, 139, 141);
+    
+}
+.paragraph h1{
+    color: red;
+    text-align: end;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+/* middle  */
+.middleleft{
+    width: 800px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.middleleft h2{
+    color: red;
+}
+
+.size{
+    width: 100%;
+}
+.image{
+    width: 600px;
+    height: 500px;
+}
+.flex2{
+    display: flex;
+}

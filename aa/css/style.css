@@ -1,0 +1,117 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    
+    border: top 5px solid #39B5E0;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+    
+    
+    
+}
+
+.navbar{
+    
+    background-color:rgb(231, 238, 236);
+    padding: 15px;
+    display: flex;
+    
+    
+
+}
+
+.navbar nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: #39B5E0;
+}
+.main{
+    display: flex;
+    justify-content: end;
+    
+    
+    
+}
+
+#icon{
+    width: 50px;
+}
+
+.big{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blue{
+    color: #39B5E0;
+}
+
+.last{
+    width: 550px;
+    height: 450px;
+    background-color:rgb(231, 238, 236) ;
+    border-top:5px solid #39B5E0;
+    border-bottom: 5px solid #39B5E0;
+    margin-top: 40px;
+
+  
+
+
+}
+
+.bigicon{
+
+    width: 50px;
+    height: 50px;
+}
+
+li::first-line{
+    font-weight: bolder ;
+}
+
+.top{
+   position: absolute;
+   right: 450px;
+   top: 110px;
+   background-color: #ff0;
+   padding: 5px;
+   font-weight: bolder;
+
+
+}
+
+.center{
+    margin-top: auto;
+}
+    
+.like{
+    position: absolute;
+    right: 15px;
+    width: 70px;
+    height: 40px;
+    bottom:50px ; 
+}
+.copy{
+    text-align: center;
+}
+.u1{
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+
+
+
+/* padding everything */

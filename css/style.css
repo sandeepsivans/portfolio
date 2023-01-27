@@ -1,0 +1,377 @@
+/* Atuhor: sandeep */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+   
+}
+a {
+    text-decoration: none;
+}
+
+.maincontainer {
+    min-width: 0;
+    gap: 10px;
+}
+
+.mainbody {
+    gap: 10px;
+    border-top: 3px solid rgb(249, 74, 10);
+    margin: 40px 50px 0 50px;
+    background-color: #fbf7f7d9;
+}
+
+.top {
+    display: flex;
+    gap: 40px;
+
+    margin: 40px 150px 50px 150px;
+}
+.topright {
+    width: 500px;
+}
+
+.topleft {
+    min-width: 0;
+}
+
+.photo {
+    width: 100%;
+}
+.innertop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.icons {
+}
+.icons img {
+    height: 25px;
+    padding-right: 15px;
+}
+
+.topleft > p {
+    color: #b6b6a8;
+}
+.topleft > h2 {
+    font-weight: 100;
+    color: rgb(249, 74, 10);
+}
+
+.low {
+    color: #b6b6a8;
+}
+/* end of the top side */
+
+.middle {
+   
+    display: flex;
+    gap: 40px;
+}
+
+.middleflex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* the space between right side middle top and bottom */
+
+.middleflex div {
+    margin-bottom: 40px;
+    
+}
+
+.middleleft {
+    width: 300px;
+}
+.middleleft > p {
+    padding-bottom: 65px;
+
+    text-align: end;
+}
+
+.middleright {
+    
+}
+
+.middleright div p {
+    width: 220px;
+}
+/* middle-2 begins here */
+.middle-2{
+   
+    display: flex;
+    gap: 40px;
+}
+
+.middleflex-2{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+    
+}
+/* left side  */
+.middlerleft-2{
+  
+    
+    width: 300px;
+    text-align: end;
+    gap: 20px;
+}
+#lh{
+    margin-bottom: 250px;
+}
+#li{
+    margin-bottom: 250px;
+}
+#la{
+    margin-bottom: 330px;
+}
+#lb{
+    margin-bottom: 440px;
+}
+#lc{
+    margin-bottom: 120px;
+}
+#ld{
+    margin-bottom: 580px;
+}
+#le{
+    margin-bottom: 185px;
+}
+/* end */
+.middleright-2 div p{
+    
+    width: 400px;
+    
+  
+   
+     
+
+}
+/* for the graphical bar */
+.lowline div{
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.lowline div p{
+    
+    background-color: black;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+}
+/* for id of the graphical bar */
+#a{
+    width: 245px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+}
+#b{
+    width: 330px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+}
+#c{
+    width: 230px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+}
+
+#d{
+    width: 210px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+
+}
+#e{
+    width: 325px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+}
+#f{
+    width: 240px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+
+}
+#g{
+    width: 280px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+}
+#h{
+    width: 220px;
+    border-bottom:2px solid rgb(248, 84, 25) ;
+}
+/* end of the graphics */
+
+/* Begin of icon size  */
+.envato{
+    width: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+
+}
+/* end of the icons */
+
+
+
+/* begin of the images of three*/
+.work{
+    width: 220px;
+}
+/* end of the images */
+
+/* begin of black box */
+
+.outerblack{
+    position: relative;
+
+
+}
+.blackbox{
+    
+    
+    position: absolute;
+    height: 25px;
+    width: 40px;
+   
+    padding: 0; 
+    margin: 4px; 
+    color: white;
+  
+}
+
+.value1{
+   left: 240px;
+}
+.value2{
+    left: 330px;
+}
+.value3{
+    left: 230px;
+    
+}
+.value4{
+   
+    left: 210px;
+}
+/* next line */
+.value5{
+    right: 30px;
+    
+}
+.value6{
+    right: 110px;
+    
+}
+.value7{
+    right: 70px;
+    
+}
+
+.value8{
+    right: 130px;
+    
+}
+/* review section */
+
+.review{
+    width: 30px;
+    
+    /* photo size */
+}
+.star{
+    width: 80px;
+}
+.flexphoto{
+    display: flex;
+    gap: 12px;
+}
+/* end  */
+.innerflex{
+    width: 80px;
+    margin-bottom: 190px;
+    display: flex;
+    gap: 138px;
+}
+.innerflex div {
+    width: 100px;
+    
+   margin: 0px;
+    padding:0px;
+    
+    
+}
+.innerflex div p{
+    height: 20px;
+    width: 190px;
+    
+}
+/* in to touch */
+.aa{
+    
+    width: 750px;
+    height: 30px;
+}
+#dd{
+    width: 750px;
+    height: 160px;
+    
+
+}
+
+input{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: rgb(240, 238, 236);
+    border: 1px none;
+    
+}
+
+/* footer */
+#click{
+    background-color: rgb(255, 96, 38);
+    color: rgb(255, 255, 255);
+    width: 75px;
+    height: 40px;
+}
+#last{
+    text-align: end;
+}
+/* end of footer */
+
+/* begin of hover */
+.pop{
+    position: relative;
+    margin-bottom: 150px;
+    
+}
+.a1 :hover{
+    position:absolute;
+    width: 50%;
+
+}
+/* end of hover */
+.flex5{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+    
+}
+
+.short{
+    position: relative;
+    width: 230px;
+    height: 180px;
+}
+.short img{
+    position: absolute;
+    width: 90%;
+    left: 10px;
+    top: 10px;
+
+}
+.b1 :hover{
+    width: 100%;
+}
